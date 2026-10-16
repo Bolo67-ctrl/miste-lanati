@@ -1,0 +1,22 @@
+{
+  "name": "miste-lanati",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "remotion studio src/index.ts",
+    "build": "remotion render src/index.ts OceanMystery out/poukisa-lanmè-a-ble.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.322",
+    "@remotion/google-fonts": "4.0.322",
+    "@remotion/transitions": "4.0.322",
+    "remotion": "4.0.322",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "@types/node": "22.10.2",
+    "typescript": "5.7.2"
+  }
+}
