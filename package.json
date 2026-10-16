@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "remotion studio src/index.ts",
-    "build": "remotion render src/index.ts OceanMystery out/poukisa-lanmè-a-ble.mp4"
+    "build": "remotion render src/index.ts OceanMystery out/poukisa-lanmè-a-ble.mp4",
+    "generate:voice": "node scripts/generate-voice.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.322",
